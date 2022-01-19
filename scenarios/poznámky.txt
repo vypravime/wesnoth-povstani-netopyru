@@ -1,0 +1,7 @@
+strana 1 přidat možnost verbovat krysy : ano
+
+přidat uvodní příběh : ne
+
+upravit detaily podle obtížnosti : minimálně
+
+dodělat funkci aby hráč mohl verbovat mravence po tom co vstoupí do vesnice : minimálně

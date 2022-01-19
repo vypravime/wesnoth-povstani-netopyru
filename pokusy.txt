@@ -1,0 +1,77 @@
+#ifdef EASY
+        [side]
+            side=3
+            controller=ai
+            team_name="goblini"
+            user_team_name= _ "Goblini"
+            id="GoblinBocni"
+            name= _ "srawdek"
+            type="Goblin Impaler"
+            unrenameable=yes
+            canrecruit=yes
+            recruit="Goblin Spearman"
+            gold=0
+    [/side]
+    #else
+            [side]
+            side=3
+            controller=ai
+            team_name="goblini"
+            user_team_name= _ "Goblini"
+            id="GoblinBocni"
+            name= _ "srawdek"
+            type="Goblin Impaler"
+            unrenameable=yes
+            canrecruit=yes
+            recruit="Goblin Spearman"
+            gold=20
+        [/side]
+    #endif
+
+    #ifdef EASY
+    #endif
+    #ifdef NORMAL
+    #endif
+    #ifdef HARD
+    #endif
+
+
+
+
+
+        [side]
+        side=3
+        controller=ai
+        team_name="goblini"
+        user_team_name= _ "Goblini"
+        id="GoblinBocni"
+        name= _ "srawdek"
+        type="Goblin Impaler"
+        unrenameable=yes
+        canrecruit=yes
+        recruit="Goblin Spearman"
+        [switch]
+            variable=difficulty
+            [case]
+                value=1
+                gold=0
+            [/case]
+            [case]
+                value=2
+                gold=20
+            [/case]
+            [else]
+                value=3
+                gold=40
+            [/else]
+        [/switch]
+    [/side]
+
+    [time]
+        {DAWN}
+        {MORNING}
+        {AFTERNOON}
+        {DUSK}
+        {FIRST_WATCH}
+        {SECOND_WATCH}
+    [/time]

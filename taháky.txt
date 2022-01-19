@@ -1,0 +1,38 @@
+U + alt gr= ↓
+
+
+
+
+[campaign]
+    [difficulty]
+        define = (EASY, NORMAL, HARD)
+        image = "(obrázek jednotky)"
+        label = _ "Rekruit"
+        description = _ "Náročná"
+    [/difficulty]
+[/campaign]  
+
+předpřipravená dení doba↓↓↓
+
+{DEFAULT_SCHEDULE}
+{SUMMER_SCHEDULE}
+{WINTER_SCHEDULE}
+
+jednotlivé časy↓↓
+
+{DAWN}
+{MORNING}
+{MIDDAY}
+{AFTERNOON}
+{DUSK}
+{FIRST_WATCH}
+{MIDNIGHT}
+{SECOND_WATCH}
+{INDOORS}
+{UNDERGROUND}
+{DEEP_UNDERGROUND}
+
+nejsem si jistý↓
+
+{DEFAULT_SCHEDULE_24H}
+{TWO_SUNS_DEFAULT_SCHEDULE}
