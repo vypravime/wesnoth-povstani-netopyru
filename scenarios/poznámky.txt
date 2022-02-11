@@ -1,9 +1,19 @@
-strana 1 přidat možnost verbovat krysy : ano
+[ne]
+    aby se objevili bandyti co půjdou proti všem, ale jen skupina co nebude moct dále verbovat : ne
 
-přidat uvodní příběh : ano
+    přidat aby na obtížnosti HARD vylezli mravenci dva ale jeden z nich nevěřil netopýrům a tak byl proti všem : ne
+[/ne]
 
-upravit detaily podle obtížnosti : trochu
+[trochu]
+    upravit detaily podle obtížnosti : trochu
 
-vývážit hru : ne
+    vývážit hru : trochu
+[/trochu]
 
-dodělat funkci aby hráč mohl verbovat mravence po tom co vstoupí do vesnice : ano
+[ano]
+    strana 1 přidat možnost verbovat krysy : ano
+
+    přidat uvodní příběh : ano
+
+    dodělat funkci aby hráč mohl verbovat mravence po tom co vstoupí do vesnice : ano
+[/ano]
